@@ -52,6 +52,10 @@ header > nav > ul {
   cursor: pointer;
 }
 
+.menu>li>a:visited{
+  color: var(--cor05);
+}
+
 body {
   background-color: var(--cor04);
 }
@@ -103,11 +107,11 @@ div > p {
 }
 
 div > input {
-  font: normal normal 1em var(--font02);
+  font: normal normal 1.2em var(--font02);
   color: white;
 
   background-color: rgb(60, 54, 54);
-  padding: 8px;
+  padding: 10px;
   border: none;
   border-radius: 3px;
   margin: auto;
@@ -119,6 +123,10 @@ div > input:hover {
   background-color: var(--cor03);
 
   transition-duration: 0.5s;
+}
+
+div>input:visited{
+  background-color: rgb(60, 54, 54);
 }
 
 div {
@@ -133,26 +141,26 @@ div {
 
 div.imagem01 {
   height: 450px;
-  width: 400px;
-  background-image: url(/imagens/cachorrinho-1-pq.png);
+  width: 60%;
+  background-image: url(../imagens/cachorro1.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   background-attachment: scroll;
 }
 div.imagem02 {
-  height: 400px;
-  width: 400px;
-  background-image: url(/imagens/gatinho-1-pq.png);
+  height: 450px;
+  width: 60%;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   background-attachment: scroll;
+  background-image: url(../imagens/gato1.jpg);
 }
 div.imagem03 {
   height: 450px;
-  width: 400px;
-  background-image: url(/imagens/gatinho-2-pq.png);
+  width: 60%;
+  background-image: url(../imagens/gato2.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -160,8 +168,8 @@ div.imagem03 {
 }
 div.imagem04 {
   height: 450px;
-  width: 400px;
-  background-image: url(/imagens/cachorrinho-2-pq.png);
+  width: 60%;
+  background-image: url(../imagens/cachorro2.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -169,8 +177,8 @@ div.imagem04 {
 }
 div.imagem05 {
   height: 450px;
-  width: 400px;
-  background-image: url(/imagens/cachorrinho-3-pq.png);
+  width: 60%;
+  background-image: url(../imagens/cachorro3.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -178,8 +186,8 @@ div.imagem05 {
 }
 div.imagem06 {
   height: 450px;
-  width: 400px;
-  background-image: url(/imagens/gatinho-3-pq.png);
+  width: 60%;
+  background-image: url(../imagens/gato3.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -189,6 +197,7 @@ div.imagem06 {
 aside{
     margin-left: 10px;
     margin-right:10px;
+    line-height: 1.5em;
 }
 
 aside>p.text1{
