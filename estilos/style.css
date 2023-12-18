@@ -189,7 +189,7 @@ div.imagem06 {
   width: 60%;
   background-image: url(../imagens/gato3.jpg);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center center ;
   background-size: cover;
   background-attachment: scroll;
 }
